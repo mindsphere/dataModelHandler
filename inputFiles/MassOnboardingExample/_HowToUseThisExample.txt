@@ -1,0 +1,35 @@
+Copy the "config-MassOnboardingExample.ini" to the root folder of the importer tool (the folder where the main.py is sitting)
+
+Fill in your tenant name and your mindsphere environment with the appropriate values
+tenantname = <yourTenantName>
+mindSphereEnvironment = <yourMindSphereEnvironment, e.g. eu1 or eu2>
+
+Optional Step:
+If you want to use app credentials, add those credentials to the relevant config section and switch the authenticationMode from "browserSession" to "appCredentials" 
+
+Log in to MindSphere and create one asset "Mass Onboarding" (e.g. from type Site or Area) in your MindSphere tenant (using the asset-manager).
+The importer will look for an asset with that name and all data will then be created as childs of that asset. 
+
+Start the importer and when asked "Do you want to overwrite some parameters manually? (y/n):" chose yes.
+Change the mode to "import" and skip the modification of the rest of the parameters using enter 
+In case you are using browserSession authentication mode, you will need to provide a valid browser session.
+Now the asset skeleton will be created. 
+In that case two assets of type "site" will be created, one called "Mass Onboarding (Devices)", one called "Mass Onboarding (Agents)".
+
+Re-run the importer, this time do not chose to overwrite some parameters manually.
+The importer will now run in agent import mode (as specified in the config).
+You will be again asked for a browser session (if you are not using app-credentials). 
+This time you need to provide a browserSession of a MindSpherer fitting connectivity plugin (since this has other scopes), in this case it is the nanobox.
+
+Everything should be imported smoothly now.
+There should be agents and assets and data-links should between them should have been established
+
+
+Exporting the data:
+You can use the export mode (run the script again, chose to overwrite parameters and select "export") to generate an export of the data you imported.
+
+Deleting:
+If you want to delete everything again, start up the importer again, this time chose to overwrite parameters and set the mode to "delete".
+The configured delete definitions should remove everything again.
+
+

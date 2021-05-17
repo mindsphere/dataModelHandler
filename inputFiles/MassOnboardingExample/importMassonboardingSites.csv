@@ -1,0 +1,3 @@
+Assetname;Asset Index;Parentname or ParentId;Asset Description;Assettype;AssetTypeIsDerivationOf;AssetType Description;Aspectname;Aspect Description;Variablename;Datatype;Unit;Aspectname Within AssetType Context
+Mass Onboarding (Agents);;Mass Onboarding;;core.basicsite;;;;;;;;
+Mass Onboarding (Devices);;Mass Onboarding;;core.basicsite;;;;;;;;

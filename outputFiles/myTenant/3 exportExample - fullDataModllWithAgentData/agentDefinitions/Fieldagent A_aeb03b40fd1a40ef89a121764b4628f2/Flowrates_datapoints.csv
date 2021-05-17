@@ -1,0 +1,3 @@
+Datapoint and Variable Name;DataPoint Id;Description;Unit;DataType;Address;On Data Changed;Hysteresis;Acquistion Type (S7 only);Derived Asset Name Or Id;Derived Asset Type Id;Parent Name or Id for derived Asset;Existing Asset Name or Id for Mapping;Mapping Mode;Aspect Id;Aspect Name;Aspect Variable Name;Acquisition Type (S7 only);mappingMode
+Flowrate Component A;DataPointId1;;l/s;DOUBLE;DB15.DBX15.1;False;0;;Device A;presiot.Flowmeter;464;;;Flowrates;Flowrates;Flowrate_Component_A;READ;CreateAgent, DeriveType, DeriveAsset, Map
+Flowrate Component B;DataPointId2;;l/s;DOUBLE;DB15.DBX3.20;False;0;;Device A;presiot.Flowmeter;464;;;Flowrates;Flowrates;Flowrate_Component_B;READ;CreateAgent, DeriveType, DeriveAsset, Map

@@ -1,0 +1,3 @@
+Agent Type Id;Agent Parent Name or Id;Agent Name or Id;Derived Asset Name Or Id;Derived Asset Type Id;Parent Name or Id for derived Asset;Data Source Name;Mapping Mode;Data Source Protocol;Data Source IP/OPCUA Server Address;Serial Number
+core.mcnano;Mass Onboarding (Agents);Fieldagent A;Device A;Flowmeter;Mass Onboarding (Devices);Flowrates;CreateAgent, DeriveType, DeriveAsset,Map;S7;192.168.0.1;GTS2004
+core.mcnano;Mass Onboarding (Agents);Fieldagent B;Device B;Flowmeter;Mass Onboarding (Devices);Flowrates;CreateAgent, DeriveType, DeriveAsset,Map;S7;192.168.0.2;GTS2005

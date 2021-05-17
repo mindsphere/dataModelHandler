@@ -1,0 +1,3 @@
+Delete underlying datamodel(c -> childs only,d -> whole datamodel);Offboard Agents (y);AssetName or AssetId;ParentName or ParentId;AssetTypeName (optional: if you want to delete standalone assetTypes, leave other columns empty then);AspectName (optional: if you want to delete standalone assetTypes, leave other columns empty then)
+d;y;Mass Onboarding (Agents);;;
+d;y;Mass Onboarding (Devices);;;
